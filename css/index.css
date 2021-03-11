@@ -1,0 +1,18 @@
+.indexup {
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.stocksale {
+    margin: 20px auto;
+    max-width: 360px;
+}
+
+.hishers-container {
+    margin: 30px;
+}
+
+.hishers {
+    border: 1px solid black;
+    display: inline-block;
+}
