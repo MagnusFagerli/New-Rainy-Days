@@ -18,11 +18,91 @@
 .hishers {
     border: 1px solid black;
     display: inline-block;
-    margin-left: 55px;
-    padding: 20px;
+    margin-left: 65px;
+    padding: 10px;
 }
 
 .hishers:hover {
     background-color: #d98b48;
 }
 
+@media (min-width: 400px) {
+    .indexup {
+        max-width: 390px;
+        margin: 10px auto;
+    }
+    
+    .stocksale {
+        margin: 20px auto;
+        margin-bottom: 50px;
+        max-width: 390px;
+    }
+    
+    .hishers-container {
+        margin: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hishers {
+        border: 1px solid black;
+        display: inline-block;
+        margin-left: 85px;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    .indexup {
+        max-width: 750px;
+        margin: 10px auto;
+    }
+    
+    .stocksale {
+        margin: 20px auto;
+        margin-bottom: 50px;
+        max-width: 750px;
+    }
+    
+    .hishers-container {
+        margin: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hishers {
+        border: 1px solid black;
+        display: inline-block;
+        margin-left: 185px;
+        padding: 30px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .indexup {
+        max-width: 900px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+    
+    .stocksale {
+        margin: 20px auto;
+        margin-bottom: 50px;
+        max-width: 900px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .hishers-container {
+        margin: 70px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hishers {
+        border: 1px solid black;
+        display: inline-block;
+        margin-left: 345px;
+        padding: 30px;
+    }
+  }
