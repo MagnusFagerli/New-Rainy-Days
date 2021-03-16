@@ -1,12 +1,12 @@
 .indexup {
-    max-width: 360px;
-    margin: 10px auto;
+    max-width: 370px;
 }
 
 .stocksale {
-    margin: 20px auto;
     margin-bottom: 50px;
-    max-width: 360px;
+    max-width: 370px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hishers-container {
@@ -26,16 +26,16 @@
     background-color: #d98b48;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 600px) {
     .indexup {
-        max-width: 390px;
+        max-width: 410px;
         margin: 10px auto;
     }
     
     .stocksale {
         margin: 20px auto;
         margin-bottom: 50px;
-        max-width: 390px;
+        max-width: 410px;
     }
     
     .hishers-container {

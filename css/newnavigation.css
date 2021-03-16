@@ -16,9 +16,21 @@ body {
     color: white;
 }
 
-.brand-title {
-    font-size: 1.5rem;
+.brand-name {
     margin: .5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    height: 50px;
+    width: 120px;
+}
+
+.punchline {
+    text-align: center;
+    font-size: 13px;
+    color: #72878c;
 }
 
 .navbar-links {
@@ -64,7 +76,23 @@ body {
     border-radius: 10px;
 }
 
-@media (max-width: 800px) {
+.footerblock {
+    border: 1px solid black;
+    display: block;
+    text-align: center;
+    background-color: #72878c;
+    width: auto;
+    max-height: 200px;
+}
+
+.some span {
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+    color: #d98b48;
+}
+
+@media (max-width: 400px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
