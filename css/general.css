@@ -1,33 +1,26 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
     margin: 0;
     padding: 0;
 }
 
-.usercontainer {
-    color: #72878c;
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
 }
 
-.shopcart {
-    width: 30px;
-    height: 30px;
-    float: right;
-    margin-right: 10px;
-}
-
-.loginicon {
-    width: 20px;
-    height: 20px;
-    float: right;
-    margin-right: 10px;
-    margin-top: 5px;
+.brand-name {
+    margin: .5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo {
-    max-width: 350px;
+    height: 50px;
+    width: 120px;
 }
 
 .punchline {
@@ -36,211 +29,143 @@ body {
     color: #72878c;
 }
 
+.navbar-links {
+    height: 100%;
+}
 
-  nav {
-    display: none;
-    margin-top: 30px;
-  }
-  
-  nav a, li, ul {
-    text-decoration: none;
-    color: black;
-    padding: 7px;
+.navbar-links ul {
     display: flex;
-    background:  #d98b48;
-    max-width: 350px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.footerblock {
+    border: 1px solid black;
+    display: block;
     text-align: center;
-  }
+    background-color: #72878c;
+    width: auto;
+    max-height: 200px;
+}
 
-  .footerblock {
-      border: 1px solid black;
-      display: block;
-      text-align: center;
-      background-color: #72878c;
-      max-width: 360px;
-      max-height: 200px;
-  }
+.some span {
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+    color: #d98b48;
+}
 
-  .some span {
-      font-size: 30px;
-      margin: 10px;
-      padding: 10px;
-      color: #d98b48;
-  }
-
-  @media (min-width: 400px) {
-    .usercontainer {
-        color: #72878c;
-    }
-    
-    .shopcart {
-        width: 30px;
-        height: 30px;
-        float: right;
-        margin-right: 10px;
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
     }
 
-    .loginicon {
-        width: 20px;
-        height: 20px;
-        float: right;
-        margin-right: 10px;
-        margin-top: 5px;
-    }
-    
-    .logo {
-        max-width: 395px;
-    }
-    
     .punchline {
         text-align: center;
-        font-size: 13px;
+        font-size: 16px;
         color: #72878c;
-    }
-    .footerblock {
-        border: 1px solid black;
-        display: block;
-        text-align: center;
-        background-color: #72878c;
-        max-width: 395px;
-        max-height: 200px;
-    }
-  }
-
-  @media (min-width: 768px) {
-    .usercontainer {
-        color: #72878c;
-    }
-    
-    .shopcart {
-        width: 40px;
-        height: 40px;
-        float: right;
-        margin-right: 10px;
     }
 
-    .loginicon {
-        width: 25px;
-        height: 25px;
-        float: right;
-        margin-right: 20px;
-        margin-top: 5px;
-    }
-    
-    .logo {
-        max-width: 750px;
-    }
-    
-    .punchline {
-        text-align: center;
-        font-size: 18px;
-        color: #72878c;
-    }
-    
-      nav {
-        display: none;
-        margin-top: 30px;
-      }
-      
-      nav a, li, ul {
-        text-decoration: none;
-        color: black;
-        padding: 7px;
+    .toggle-button {
         display: flex;
-        background:  #d98b48;
-        max-width: 350px;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
         text-align: center;
-      }
-
-    .footerblock {
-        border: 1px solid black;
-        display: block;
-        text-align: center;
-        background-color: #72878c;
-        max-width: 750px;
-        max-height: 200px;
-    }
-  }
-
-  @media (min-width: 1000px) {
-    .usercontainer {
-        color: #72878c;
-        width: 1200px;
-    }
-    
-    .shopcart {
-        width: 40px;
-        height: 40px;
-        float: right;
-        margin-right: 10px;
     }
 
-    .loginicon {
-        width: 25px;
-        height: 25px;
-        float: right;
-        margin-right: 20px;
-        margin-top: 5px;
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
     }
-    
-    .logo {
-        max-width: 1180px;
-        margin-left: 45px;
+
+    .navbar-links.active {
+        display: flex;
     }
-    
+}
+
+@media (min-width: 1000px) {
+    .navbar {
+        display: flex;
+    }
+
     .punchline {
         text-align: center;
-        font-size: 20px;
+        font-size: 25px;
         color: #72878c;
     }
 
-
-    .hamburger-label {
-        float: right;
-        color: black;
-        padding: 10px;
-        font-size: 1.5em;
-        display: none;
-        margin-top: 30px;
-      }
-    
-      #hamburger-menu {
-        display: none;
-        float: right;
-      }
-      
-      #hamburger-menu:checked ~ nav {
-        display: none;
-        margin-top: 20px;
-        max-width: 350px;
-        height: 90px;
-      }
-    
-      nav {
-        display: block;
-        margin-top: 30px;
-      }
-      
-      nav a, li, ul {
-        text-decoration: underline;
-        color: black;
-        padding: 7px;
-        display: flex;
-        margin-left: auto;
-        margin-right: auto;
-        background:  #d98b48;
-        max-width: 750px;
-        text-align: center;
-      }
-
-    .footerblock {
-        border: 1px solid black;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        background-color: #72878c;
-        max-width: 1180px;
-        max-height: 200px;
+    .brand-name {
+        margin: 2rem;
     }
-  }
+
+    .toggle-button {
+        display: none;
+    }
+
+    .navbar-links {
+        display: block;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        float: right;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+        font-size: 23px;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
