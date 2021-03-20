@@ -1,0 +1,159 @@
+h1, h2 {
+    text-align: center;
+    display: block;
+}
+
+h3 {
+    margin-top: 85px;
+}
+
+.jacketdesc {
+    margin-left: 110px;
+    margin-top: 50px;
+  }
+  
+  .jacket {
+    height: 100px;
+    width: 90px;
+    float: left;
+    margin-bottom: 50px;
+    margin-left: 5px;
+  }
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+  }
+  
+  .col-50 {
+    flex: 50%;
+  }
+  
+  .col-75 {
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+      padding: 8px;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    width: 350px;
+    margin-bottom: 80px;
+  }
+  
+  input[type="text"] {
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 50%;
+    border-radius: 3px;
+    font-size: 17px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+  
+  .btn:hover {
+    background-color: #00b894;
+  }
+  
+    .totprice {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    h1, h4 {
+        text-align: center;
+        display: block;
+    }
+    
+    h3 {
+        margin-top: 200px;
+    }
+
+    .jacketdesc {
+        margin-left: 410px;
+        margin-top: 50px;
+      }
+      
+      .jacket {
+        height: 200px;
+        width: 190px;
+        float: left;
+        margin-bottom: 50px;
+        margin-left: 50px;
+      }
+    
+    .row {
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 350px;
+    }
+      
+      .col-25,
+      .col-50,
+      .col-75 {
+          padding: 8px;
+      }
+      
+      .container {
+        background-color: #f2f2f2;
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+        width: 745px;
+        margin-bottom: 80px;
+      }
+      
+      input[type="text"] {
+        width: 50%;
+        margin-bottom: 20px;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+      }
+      
+      label {
+        margin-bottom: 10px;
+        display: block;
+      }
+      
+      .icon-container {
+        margin-bottom: 20px;
+        padding: 7px 0;
+        font-size: 24px;
+      }
+}
+
+ @media (min-width: 1000px) {
+
+}

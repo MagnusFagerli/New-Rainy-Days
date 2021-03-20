@@ -1,0 +1,66 @@
+.jacket {
+    margin-top: 70px;
+    height: 300px;
+    width: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    margin-bottom: 150px;
+  }
+  
+  input {
+      display: none;
+    }
+    
+.button {
+      display: inline-flex;
+      width: 50px;
+      height: 50px;
+      margin: 10px;
+    }
+    
+.button span {
+      display: flex;
+      width: 50px;
+      height: 50px;
+      padding: 0;
+      border-radius: 100%;
+      background: red;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    }
+    
+.red .button span {
+      background: red;
+    }
+  
+.blue .button span {
+        background: blue;
+    }
+  
+.yellow .button span {
+      background: yellow;
+  }
+  
+.price {
+    font-size: 28px;
+    margin-top: 20px;
+  }
+  
+.crt {
+    background-color: #00b894;
+    border-radius: 6px;
+    padding: 12px 50px;
+    margin-top: 40px;
+    width: 80px;
+  }
+
+  .crt a {
+      text-decoration: none;
+  }
