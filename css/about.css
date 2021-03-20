@@ -1,5 +1,8 @@
 .forest {
     width: 350px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 h1 {
@@ -10,6 +13,8 @@ h1 {
 .aboutus {
     margin-top: 20px;
     margin-bottom: 50px;
+    text-align: center;
+    padding: 10px;
 }
 
 @media (min-width: 400px) {

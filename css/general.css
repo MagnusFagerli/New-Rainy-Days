@@ -3,15 +3,6 @@ body {
     padding: 0;
 }
 
-.navbar {
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    color: white;
-}
-
 .brand-name {
     margin: .5rem;
     margin-left: auto;
@@ -29,26 +20,38 @@ body {
     color: #72878c;
 }
 
+.navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #333;
+    color: white;
+    display: flex;
+}
+
+.toggle-button {
+    display: flex;
+}
+
 .navbar-links {
-    height: 100%;
     display: none;
+    width: 100%;
 }
 
 .navbar-links ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
+    width: 80%;
+    flex-direction: column;
 }
 
-.navbar-links li {
+.navbar-links ul li {
+    text-align: center;
     list-style: none;
+    padding: 1rem;
 }
 
-.navbar-links li a {
-    display: block;
+.navbar-links ul li a {
     text-decoration: none;
     color: white;
-    padding: 1rem;
+    font-size: 18px;
 }
 
 .navbar-links li:hover {
