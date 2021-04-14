@@ -24,8 +24,9 @@ async function fetchJacket() {
                                     <div class="shortdesc"><i>${jacketdetails.short_description}</i></div>
                                     <div class="mainjacket"><img src="${jacketdetails.images[0].src};"></div></a>
                                     <div class="longdesc">${jacketdetails.description}</div>
-                                    <label class="red">
                                     
+                                    
+                                    <label class="red">
                                     <input type="radio" name="color" value="Red" />
                                     <div class="button"><span></span></div>
                                     </label>
@@ -38,7 +39,8 @@ async function fetchJacket() {
                                     <input type="radio" name="color" value="Yellow" />
                                     <div class="button"><span></span></div>
                                 </label>
-                    
+                                
+
                                 <div class="crt">
                                     <a href="checkout.html">Add to Cart</a>
                                 </div>
