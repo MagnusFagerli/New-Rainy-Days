@@ -1,48 +1,44 @@
-h1 {
+h2 {
     text-align: center;
-    margin-top: 55px;
+    margin-top: 5px;
 }
 
-.products {
-    margin-top: 5px;
-    text-align: center;
-    display: inline-block;
-  }
-  
-  .row {
-    margin: 10px;
-    border: 1px solid black;
-    max-width: 350px;
-    text-align: center;
+.jacketcontainer {
     display: flex;
-    flex-direction: column;
-  }
-  
-  .row-2 {
-    margin: 10px;
-    border: 1px solid black;
-    max-width: 350px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 45px;
   }
 
-  .button {
+  .jacketimg {
+    max-width: 20px;
+    text-align: center;
+  }
+  
+  .product-card {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
     margin: 20px;
-    border: 1px solid white;
-    border-radius: 8px;
-    width: 100px;
-    padding: 8px;
-    display: block;
+    width: 300px;
+  }
+
+  .buybtn {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 150px;
+    height: 60px;
     margin-left: auto;
     margin-right: auto;
-    background:  green;
+    background-color: #EDF3FF;
   }
 
-  .button a {
-    color: white;
+  .buybtn a {
     text-decoration: none;
-    font-size: 19px;
+  }
+
+  .buybtn :hover {
+    color:  #d98b48;
   }
 
   .usercontainer {
@@ -51,9 +47,10 @@ h1 {
   }
 
   .carticon {
-      height: 40px;
-      width: 40px;
-      margin-right: 10px;
+      height: 30px;
+      width: 30px;
+      margin-right: 15px;
+      margin-top: 5px;
   }
 
   @media (min-width: 768px) {

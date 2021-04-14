@@ -1,19 +1,18 @@
-.jacket {
-    margin-top: 70px;
-    height: 300px;
-    width: 180px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-.container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 15px;
-    display: flex;
-    margin-bottom: 150px;
-  }
+.jacketdetails {
+  margin-top: 50px;
+}
+
+h2 {
+  margin-left: 20px;
+}
+
+.shortdesc {
+  margin-left: 20px;
+}
+
+.longdesc {
+  margin-left: 10px;
+}
   
   input {
       display: none;
@@ -31,9 +30,10 @@
       width: 50px;
       height: 50px;
       padding: 0;
+      margin-left: px;
+      border: 0,5px solid black;
       border-radius: 100%;
       background: red;
-      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
     }
     
 .red .button span {
@@ -48,19 +48,91 @@
       background: yellow;
   }
   
-.price {
-    font-size: 28px;
-    margin-top: 20px;
-  }
+  .usercontainer {
+    display: flex;
+    float: right;
+}
+
+.carticon {
+    height: 30px;
+    width: 30px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
   
 .crt {
-    background-color: #00b894;
+    background-color: #EDF3FF;
+    border: 1px solid black;
     border-radius: 6px;
     padding: 12px 50px;
     margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 50px;
     width: 80px;
   }
 
   .crt a {
       text-decoration: none;
   }
+
+
+  @media (min-width: 768px) {
+    .jacketdetails {
+      margin-top: 50px;
+    }
+    
+    h2 {
+      margin-left: 120px;
+    }
+    
+    .shortdesc {
+      margin-left: 120px;
+    }
+    
+    .longdesc {
+      margin-left: 120px;
+      margin-top: 50px;
+    }
+
+    .mainjacket {
+      margin-left: 100px;
+    }
+      
+      input {
+          display: none;
+        }
+        
+    .button {
+          display: inline-flex;
+          width: 50px;
+          height: 50px;
+          margin: 10px;
+        }
+        
+    .button span {
+          display: flex;
+          width: 50px;
+          height: 50px;
+          padding: 0;
+          margin-left: px;
+          border: 0,5px solid black;
+          border-radius: 100%;
+          background: red;
+        }
+        
+    .red .button span {
+          background: red;
+        }
+      
+    .blue .button span {
+            background: blue;
+        }
+      
+    .yellow .button span {
+          background: yellow;
+      }
+ }
+
+  @media (min-width: 1000px) {
+
+ }
