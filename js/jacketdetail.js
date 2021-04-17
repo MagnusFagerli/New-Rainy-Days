@@ -26,19 +26,12 @@ async function fetchJacket() {
                                     <div class="longdesc">${jacketdetails.description}</div>
                                     
                                     
-                                    <label class="red">
-                                    <input type="radio" name="color" value="Red" />
-                                    <div class="button"><span></span></div>
-                                    </label>
-
-                                <label class="blue">
-                                    <input type="radio" name="color" value="Blue" />
-                                    <div class="button"><span></span></div>
-                                </label>
-                                <label class="yellow">
-                                    <input type="radio" name="color" value="Yellow" />
-                                    <div class="button"><span></span></div>
-                                </label>
+                                    <div class="sizes">
+                                    <button class="sizebtnone">S</button>
+                                    <button class="sizebtn">M</button>
+                                    <button class="sizebtn">L</button>
+                                    
+                                    </div>
                                 
 
                                 <div class="crt">

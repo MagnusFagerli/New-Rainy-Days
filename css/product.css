@@ -14,41 +14,22 @@ h2 {
   margin-left: 10px;
 }
   
-  input {
-      display: none;
-    }
-    
-.button {
-      display: inline-flex;
-      width: 50px;
-      height: 50px;
-      margin: 10px;
-    }
-    
-.button span {
-      display: flex;
-      width: 50px;
-      height: 50px;
-      padding: 0;
-      margin-left: px;
-      border: 0,5px solid black;
-      border-radius: 100%;
-      background: red;
-    }
-    
-.red .button span {
-      background: red;
-    }
-  
-.blue .button span {
-        background: blue;
-    }
-  
-.yellow .button span {
-      background: yellow;
-  }
-  
-  .usercontainer {
+.sizebtn {
+  width: 60px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+.sizebtn.active {
+  background-color: #d98b48;
+}
+ 
+.sizebtnone.active {
+  background-color: #d98b48;
+}
+
+
+.usercontainer {
     display: flex;
     float: right;
 }
@@ -108,42 +89,63 @@ h2 {
       margin-left: 180px;
       width: 80px;
     }
+
+    .sizebtnone {
+      width: 60px;
+      height: 40px;
+      margin-left: 120px;
+    }
       
-      input {
-          display: none;
-        }
-        
-    .button {
-          display: inline-flex;
-          width: 50px;
-          height: 50px;
-          margin-left: 100px;
-          
-        }
-        
-    .button span {
-          display: flex;
-          width: 50px;
-          height: 50px;
-          padding: 0;
-          border: 0,5px solid black;
-          border-radius: 100%;
-          background: red;
-        }
-        
-    .red .button span {
-          background: red;
-        }
-      
-    .blue .button span {
-            background: blue;
-        }
-      
-    .yellow .button span {
-          background: yellow;
-      }
+    .sizebtn {
+      width: 60px;
+      height: 40px;
+      margin-left: 30px;
+    }
  }
 
   @media (min-width: 1000px) {
+    .jacketdetails {
+      margin-top: 50px;
+    }
+    
+    h2 {
+      margin-left: 420px;
+    }
+    
+    .shortdesc {
+      margin-left: 420px;
+    }
+    
+    .longdesc {
+      margin-left: 420px;
+      margin-top: 50px;
+    }
 
+    .mainjacket {
+      margin-left: 420px;
+      margin-top: 40px;
+    }
+
+    .crt {
+      background-color: #EDF3FF;
+      border: 1px solid black;
+      border-radius: 6px;
+      padding: 12px 50px;
+      margin-top: 40px;
+      margin-bottom: 90px;
+      margin-left: 420px;
+      width: 80px;
+    }
+
+    .sizebtnone {
+      width: 60px;
+      height: 40px;
+      margin-left: 420px;
+    }
+      
+    .sizebtn {
+      width: 60px;
+      height: 40px;
+      margin-left: 30px;
+    }
  }
