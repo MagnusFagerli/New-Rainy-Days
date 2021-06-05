@@ -4,6 +4,19 @@
     margin-right: auto;
 }
 
+.imgcontainer {
+    position: relative;
+    text-align: center;
+}
+
+.top-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+    font-size: 19px;
+}
+
 .stocksale {
     margin-bottom: 50px;
     max-width: 370px;
@@ -57,6 +70,19 @@
         display: inline-block;
         margin-left: 85px;
         padding: 10px;
+    }
+
+    .imgcontainer {
+        position: relative;
+        text-align: center;
+    }
+    
+    .top-left {
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+        color: white;
+        font-size: 25px;
     }
 }
 
@@ -136,4 +162,24 @@
         padding: 25px;
     }
 
+  }
+
+  @media (min-width: 1000px) {
+    .top-left {
+        position: absolute;
+        bottom: 8px;
+        left: 250px;
+        color: white;
+        font-size: 30px;
+    }
+  }
+
+  @media (min-width: 1920px) {
+    .top-left {
+        position: absolute;
+        bottom: 8px;
+        left: 550px;
+        color: white;
+        font-size: 30px;
+    }
   }

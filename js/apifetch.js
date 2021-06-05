@@ -15,7 +15,7 @@ async function fetchJacket() {
                                     <a href="product.html?id=${jacket[i].id}"><h2>${jacket[i].name}</h2>
                                     <div class="jacketimg"><img src="${jacket[i].images[0].src};"></div></a>
                                     <p>${jacket[i].short_description}</p><p>${jacket[i].prices.price}<i>$</i></p>
-                                    <div class="buybtn"><a href="product.html?id=${jacket[i].id}"><h4>Explore</h4></div>
+                                    <a href="product.html?id=${jacket[i].id}" class="buybtn">Explore</a>
                                     </div>
                                     
             
