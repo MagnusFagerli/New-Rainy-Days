@@ -27,7 +27,7 @@ async function fetchJacket() {
                                     
                                     
                                     <div class="sizes">
-                                    <button class="sizebtnone">S</button>
+                                    <button class="sizebtn">S</button>
                                     <button class="sizebtn">M</button>
                                     <button class="sizebtn">L</button>
                                     

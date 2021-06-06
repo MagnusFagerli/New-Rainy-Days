@@ -22,7 +22,6 @@ body {
 
 nav {
     flex-direction: column;
-    align-items: flex-start;
     background-color: #333;
     color: white;
     display: flex;
@@ -87,6 +86,22 @@ footer {
         background-color: #72878c;
         display: block;
         text-align: center;
+}
+
+.footerheader {
+    font-size: 23px;
+    margin-top: -20px;
+}
+
+.socials a {
+    color: #d98b48;
+    font-size: 30px;
+    display: inline-flex;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: -30px;
+    border: 1px solid black;
+    border-radius: 50px;
 }
 
 @media (min-width: 768px) {
@@ -175,5 +190,23 @@ footer {
     .navbar-links ul li a {
         padding: .5rem 1rem;
         font-size: 23px;
+    }
+
+    footer {
+        height: 110px;
+        padding: 5px;
+        width: auto;
+        background-color: #72878c;
+        display: block;
+        text-align: center;
+}
+}
+
+@media (min-width: 1500px) {
+    nav {
+        flex-direction: column; 
+        background-color: #333;
+        color: white;
+        display: flex;
     }
 }

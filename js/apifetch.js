@@ -8,7 +8,6 @@ async function fetchJacket() {
         const jacket = await response.json();
 
         for (let i = 0; i < jacket.length; i++) {
-            console.log("test");
 
 
             container.innerHTML += `<div class="product-card">

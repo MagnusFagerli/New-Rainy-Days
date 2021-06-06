@@ -18,6 +18,7 @@ h2 {
   width: 60px;
   height: 40px;
   margin-left: 10px;
+  cursor: pointer;
 }
 
 .sizebtn.active {
@@ -48,12 +49,15 @@ h2 {
     padding: 12px 50px;
     margin-top: 40px;
     margin-bottom: 40px;
-    margin-left: 50px;
+    margin-left: 10px;
     width: 80px;
+    cursor: pointer;
+    font-size: 16px;
   }
 
   .crt a {
       text-decoration: none;
+      color: black;
   }
 
 
